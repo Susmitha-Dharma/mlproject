@@ -27,3 +27,12 @@ setup
     include_package_data=true,
     install_requires=get_requirements('requirements.txt')
 )
+
+from setuptools import setup, find_packages
+
+setup(
+    name='mlproject',
+    version='0.1',
+    packages=find_packages(),
+    install_requires=[],
+)
